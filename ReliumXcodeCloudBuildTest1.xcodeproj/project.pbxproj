@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E803E342A82CC9800971788 /* XcodeCloudTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E803E342A82CC9800971788 /* ReliumXcodeCloudBuildTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReliumXcodeCloudBuildTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E803E372A82CC9800971788 /* XcodeCloudTest1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudTest1App.swift; sourceTree = "<group>"; };
 		8E803E392A82CC9800971788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E803E3B2A82CC9900971788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		8E803E352A82CC9800971788 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E803E342A82CC9800971788 /* XcodeCloudTest1.app */,
+				8E803E342A82CC9800971788 /* ReliumXcodeCloudBuildTest1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E803E332A82CC9800971788 /* XcodeCloudTest1 */ = {
+		8E803E332A82CC9800971788 /* ReliumXcodeCloudBuildTest1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E803E432A82CC9900971788 /* Build configuration list for PBXNativeTarget "XcodeCloudTest1" */;
+			buildConfigurationList = 8E803E432A82CC9900971788 /* Build configuration list for PBXNativeTarget "ReliumXcodeCloudBuildTest1" */;
 			buildPhases = (
 				8E803E302A82CC9800971788 /* Sources */,
 				8E803E312A82CC9800971788 /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodeCloudTest1;
+			name = ReliumXcodeCloudBuildTest1;
 			productName = XcodeCloudTest1;
-			productReference = 8E803E342A82CC9800971788 /* XcodeCloudTest1.app */;
+			productReference = 8E803E342A82CC9800971788 /* ReliumXcodeCloudBuildTest1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E803E2F2A82CC9800971788 /* Build configuration list for PBXProject "XcodeCloudTest1" */;
+			buildConfigurationList = 8E803E2F2A82CC9800971788 /* Build configuration list for PBXProject "ReliumXcodeCloudBuildTest1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E803E332A82CC9800971788 /* XcodeCloudTest1 */,
+				8E803E332A82CC9800971788 /* ReliumXcodeCloudBuildTest1 */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +271,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -309,6 +310,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -337,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E803E2F2A82CC9800971788 /* Build configuration list for PBXProject "XcodeCloudTest1" */ = {
+		8E803E2F2A82CC9800971788 /* Build configuration list for PBXProject "ReliumXcodeCloudBuildTest1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E803E412A82CC9900971788 /* Debug */,
@@ -346,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E803E432A82CC9900971788 /* Build configuration list for PBXNativeTarget "XcodeCloudTest1" */ = {
+		8E803E432A82CC9900971788 /* Build configuration list for PBXNativeTarget "ReliumXcodeCloudBuildTest1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E803E442A82CC9900971788 /* Debug */,
