@@ -36,6 +36,7 @@
 		8E803E2B2A82CC9800971788 = {
 			isa = PBXGroup;
 			children = (
+				8EF92CE12A8ABA9300439695 /* ci_scripts */,
 				8E803E362A82CC9800971788 /* XcodeCloudTest1 */,
 				8E803E352A82CC9800971788 /* Products */,
 			);
@@ -67,6 +68,13 @@
 				8E803E3F2A82CC9900971788 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EF92CE12A8ABA9300439695 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
