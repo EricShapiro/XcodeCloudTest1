@@ -11,10 +11,10 @@ function cleanup {
 }
 trap cleanup EXIT
 
-SCRIPT_FOLDER="$CI_PROJECT_FILE_PATH/ci_scripts"
+SCRIPT_FOLDER="$CI_WORKSPACE/ci_scripts"
 
 # for the log file
-echo "project at $CI_PROJECT_FILE_PATH"
+echo "project at $CI_WORKSPACE"
 echo "ci_scripts at $SCRIPT_FOLDER"
 curl http://68.42.67.71:8000/BuildStarted.txt
 
